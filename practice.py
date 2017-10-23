@@ -81,3 +81,5 @@ def scrape_callback(url, html):
             tree.xpath('//tr[@id="places_%s__row"]/td[@class="w2p_fw"]' % field)[0].text_content()
             for field in fields]
         print(url, all_rows)
+
+
