@@ -86,7 +86,7 @@ def get_events(links, p_lib, b_url):
                     date = dts[0].text
                 description = row.select('.field-name-body')[0].text
                 df = df.append({
-                    'Library': library,
+                    'Location': library,
                     'Title': title,
                     'Link': link,
                     'Date': date,
